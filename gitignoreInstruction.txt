@@ -1,0 +1,8 @@
+Each time you change the .gitignore file
+
+you need to do this,
+
+git rm -rf --cached .
+git add .
+git commit -m "change gitignore file for this or that purpose
+gti push (this will push the files according to gitignore)
